@@ -1,0 +1,15 @@
+node_modules/
+.next/
+dist/
+dist-test/
+.env
+.env.local
+.env.*
+!.env.example
+data/
+tmp/
+*.tsbuildinfo
+*.log
+# Local source corpus and customer-supplied materials are not deployment inputs.
+ingestion/
+resources/
